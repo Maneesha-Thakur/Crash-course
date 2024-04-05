@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yarndings+20+Charted&display=swap" rel="stylesheet">
+
+    <style>
+    
+        h1{
+
+            font-family: "Edu NSW ACT Foundation", cursive;
+            font-size: 70px;
+            text-align: center;
+        }
+        .parent{
+            display: grid;
+            grid-template-columns: repeat(6,150px);
+            grid-template-rows: repeat(10,40px);
+            gap: 10px;
+            height: 550px;
+            justify-content: center;
+            margin: auto;
+          
+        }
+        .parent div{
+            display: grid;
+            border-radius: 15px;
+            border:none
+        }
+        .pink{
+            background-color: pink;color:black ;font-weight:900 ;text-align: center;padding-top:  12px;font-size: 19px; 
+        }
+        .yellow{
+            background-color: rgb(255, 255, 152) ;font-weight:900 ;text-align: center;padding-top:  12px;font-size: 19px
+        }
+        .time{
+            background-color: skyblue;
+            color: black;
+            font-weight: 900;
+            text-align: center;
+            padding-top: 12px;
+            font-size: 19px;
+        }
+        .btn{
+           width: 150vh;
+           height: 7vh;
+           text-align: start;
+           background-color: skyblue;
+           color: black;
+           font-size: 20px;
+           font-weight: 600;
+           border-radius: 50px;
+           border: none;
+           margin-top: 10px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .parent {
+                grid-template-columns: repeat(4, 90px);
+                height: auto;
+                
+            }
+          
+            .pink, .yellow, .time {
+                font-size: 16px; 
+
+            }
+            .btn{
+                font-size: 15px;
+                width: 300px;
+                height: 40px;
+            }
+        }
+        @media screen and (min-width: 769px) and (max-width: 1024px) {
+            .parent {
+                grid-template-columns: repeat(7);
+             
+            }
+        }
+      
+    </style>
+</head>
+<body>
+    <h1>Weekly schedule</h1>
+    <div class="parent">
+   <div style="border: none;"></div>
+   <div class="pink" >Monday</div>
+   <div  class="yellow">Tuesday</div>
+   <div  class="pink" >Wednesday</div>
+   <div class="yellow">Thursday</div>
+   <div  class="pink">Friday</div>
+   <div class="time" > 08:00</div>
+   <div class="pink" ></div>
+   <div class="yellow"></div>
+   <div class="pink" ></div>
+   <div class="yellow"></div>
+   <div class="pink"></div>
+   <div class="time">09:00</div>
+   <div class="pink"></div>
+   <div class="yellow"></div>
+   <div class="pink"></div>
+   <div class="yellow"></div>
+   <div class="pink"></div>
+   <div class="time"> 10:00</div>
+   <div  class="pink"></div>
+   <div class="yellow"></div>
+   <div class="pink"></div>
+   <div class="yellow"></div>
+   <div class="pink"></div>
+   <div class="time"> 11:00</div>
+   <div class="pink"></div>
+   <div class="yellow"></div>
+   <div class="pink"></div>
+   <div class="yellow"></div>
+   <div class="pink"></div>
+   <div class="time"> 12:00</div>
+   <div class="pink"></div>
+   <div class="yellow"></div>
+   <div class="pink"></div>
+   <div class="yellow"></div>
+   <div class="pink"></div>
+   <div class="time"> 13:00</div>
+   <div class="pink"></div>
+   <div class="yellow"></div>
+   <div class="pink"></div>
+   <div class="yellow"></div>
+   <div class="pink"></div>
+   <div class="time">14:00</div>
+   <div class="pink"></div>
+   <div class="yellow"></div>
+   <div class="pink"></div>
+   <div class="yellow"></div>
+   <div class="pink"></div>
+   <div class="time"> 15:00</div>
+   <div class="pink"></div>
+   <div class="yellow"></div>
+   <div class="pink"></div>
+   <div class="yellow"></div>
+   <div class="pink"></div>
+   <div class="time"> 16:00</div>
+   <div class="pink"></div>
+   <div class="yellow"></div>
+   <div class="pink"></div>
+   <div class="yellow"></div>
+   <div class="pink"></div>
+   <button class="btn" >Note:</button>
+</body>
+</html>
