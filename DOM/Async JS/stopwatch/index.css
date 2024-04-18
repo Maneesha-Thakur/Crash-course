@@ -1,0 +1,10 @@
+.parent{
+    margin-top: 250px;
+   margin-left: 500px;
+
+}
+#display {
+    color: red;
+    font-size: 2em;
+    margin-bottom: 23px;
+}
